@@ -124,4 +124,73 @@ header > .logo {
 .quote-section {
     display: flex;
     flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 0 185px;
+}
+
+.quote-section > h2 {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.quote-section > p {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: end;
+    margin-right: 60px;
+}
+
+.sign-up-section {
+    display: flex;
+    align-items: center;
+    height: 390px
+}
+
+.blue-section {
+    background-color: rgb(133, 179, 231);
+    color: white;
+    flex: 1 1 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 195px;
+}
+
+.left-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.left-content> h3 {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.left-content > * {
+    margin: 0;
+    padding: 0;
+}
+
+.blue-section > .sign-up {
+    color: white;
+    border: 3px solid white;
+    background-color:rgb(133, 179, 231);
+    border-radius: 7px;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 3px 30px;
+}
+
+footer {
+    background-color: #1F2937;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer > p {
+    margin: 0;
+    color: white;
 }
