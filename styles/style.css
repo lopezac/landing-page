@@ -27,7 +27,7 @@ ul {
 
 .right-links > ul {
     display: flex;
-    column-gap: 10px;
+    column-gap: 30px;
 }
 
 .hero-main-content {
